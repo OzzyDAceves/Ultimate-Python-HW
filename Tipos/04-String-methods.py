@@ -1,0 +1,13 @@
+Animal = " Happy Monkey "
+print(Animal.upper())
+print(Animal.lower())
+print(Animal.capitalize())
+print(Animal.title())
+print(Animal.strip())
+print(Animal.strip().capitalize())
+print(Animal.lstrip())
+print(Animal.rstrip())
+print(Animal.find("pp"))
+print(Animal.replace("pp", "k"))
+print("pp" in Animal)
+print("pp" not in Animal)
