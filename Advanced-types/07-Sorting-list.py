@@ -20,9 +20,5 @@ Users.sort()
 print(Users)
 
 
-def Sorting(item):
-    return item[1]
-
-
-Users_2.sort(key=Sorting)
+Users_2.sort(key=lambda el: el[1])
 print(Users_2)
